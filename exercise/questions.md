@@ -243,9 +243,9 @@ Yahoo Financeから[データ](https://finance.yahoo.com/quote/GOOG/history?p=GO
 
 ## Chapter 5
 
-40. いくつかの回帰手法をscikit-learnを用いて，実験せよ．
-    - 実験データは，![](https://latex.codecogs.com/png.latex?f(x)&space;=&space;\sin(x))にノイズを加えたものとする．
-    - 手法のパラメータを変えながら，実験する．
+40. リッジ回帰をscikit-learn準拠でコーディングし, 実験せよ.
+	- 実験データは![Boston house prices dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html)を用いよ.
+	- ハイパーパラメータの最適化も行うこと.
 
 ### Titanic
 
