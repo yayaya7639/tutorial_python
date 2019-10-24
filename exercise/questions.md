@@ -243,9 +243,10 @@ Yahoo Financeから[データ](https://finance.yahoo.com/quote/GOOG/history?p=GO
 
 ## Chapter 5
 
-40. リッジ回帰をscikit-learn準拠でコーディングし, 実験せよ.
-	- 実験データは![Boston house prices dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html)を用いよ.
-	- ハイパーパラメータの最適化も行うこと.
+40. (任意の)回帰モデルをscikit-learn準拠でコーディングし, 実験せよ.
+	- MyRegression()クラスに必要なメソッド等を記述せよ.
+	- データは[`X_train.csv`](../text/data/X_train.csv)と[`y_train.csv`](../text/data/y_train.csv)を用いよ.
+	- 評価は[`X_test.csv`](../text/data/X_test.csv)で行う. 予測結果を`../text/data/y_pred.csv`として保存せよ.
 
 ### Titanic
 
