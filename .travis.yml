@@ -3,6 +3,8 @@ python:
 - 3.6
 install:
 - pip install -r requirments.txt
+- git clone https://github.com/whale8/data.git
+- cd data
 script:
 - pytest 
 notifications:
